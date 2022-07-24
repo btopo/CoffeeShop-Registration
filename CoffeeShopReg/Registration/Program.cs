@@ -1,7 +1,12 @@
+using Registration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var startup = new Startup(builder.Configuration);  // config builder from the startup cs 
+startup.ConfigureServices(builder.Services);
+
 
 var app = builder.Build();
 

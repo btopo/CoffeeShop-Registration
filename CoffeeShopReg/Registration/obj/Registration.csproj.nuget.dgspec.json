@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ptopo\\Desktop\\Code\\Bret\\coffeeRegistration\\CoffeeShopReg\\Registration\\Registration.csproj": {}
+    "C:\\Users\\brett\\source\\repos\\CoffeeShop-Registration\\CoffeeShopReg\\Registration\\Registration.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ptopo\\Desktop\\Code\\Bret\\coffeeRegistration\\CoffeeShopReg\\Registration\\Registration.csproj": {
+    "C:\\Users\\brett\\source\\repos\\CoffeeShop-Registration\\CoffeeShopReg\\Registration\\Registration.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ptopo\\Desktop\\Code\\Bret\\coffeeRegistration\\CoffeeShopReg\\Registration\\Registration.csproj",
+        "projectUniqueName": "C:\\Users\\brett\\source\\repos\\CoffeeShop-Registration\\CoffeeShopReg\\Registration\\Registration.csproj",
         "projectName": "Registration",
-        "projectPath": "C:\\Users\\Ptopo\\Desktop\\Code\\Bret\\coffeeRegistration\\CoffeeShopReg\\Registration\\Registration.csproj",
-        "packagesPath": "C:\\Users\\Ptopo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ptopo\\Desktop\\Code\\Bret\\coffeeRegistration\\CoffeeShopReg\\Registration\\obj\\",
+        "projectPath": "C:\\Users\\brett\\source\\repos\\CoffeeShop-Registration\\CoffeeShopReg\\Registration\\Registration.csproj",
+        "packagesPath": "C:\\Users\\brett\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\brett\\source\\repos\\CoffeeShop-Registration\\CoffeeShopReg\\Registration\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Ptopo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\brett\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,8 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://pkgs.dev.azure.com/CodeSolutionsX/SpiceX/_packaging/CSX.NuGet/nuget/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -44,6 +40,20 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[6.0.7, )"
@@ -71,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
